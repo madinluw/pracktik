@@ -1,0 +1,79 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    margin-left: 30%;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-areas:
+    'box1 box2 '
+    "box3 box4 ";
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.box1{
+    background-color: cornflowerblue;
+    animation-name: box1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes box1{
+    from{
+        margin-left: 0;
+        margin-top: 0;
+    }50%{
+        margin-left: -50px;
+        margin-top: -50px;
+    }
+}
+.box2{
+    background-color: cornsilk;
+    animation-name: box2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes box2{
+    from{
+        margin-left: 0;
+        margin-top: 0;
+    }50%{
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+}
+.box3{
+    background-color: coral;
+    animation-name: box3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes box3{
+    from{
+        margin-left: 0;
+        margin-top: 0;
+    }50%{
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+}
+.box4{
+    background-color: crimson;
+    animation-name: box4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes box4{
+    from{
+        margin-left: 0;
+        margin-top: 0;
+    }50%{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+}
+
