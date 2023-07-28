@@ -14,13 +14,13 @@ body{
 .box{
     width: 200px;
     height: 200px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .box1{
     background-color: cornflowerblue;
     animation-name: box1;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 @keyframes box1{
     from{
@@ -34,8 +34,6 @@ body{
 .box2{
     background-color: cornsilk;
     animation-name: box2;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 @keyframes box2{
     from{
@@ -49,8 +47,6 @@ body{
 .box3{
     background-color: coral;
     animation-name: box3;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 @keyframes box3{
     from{
@@ -64,8 +60,6 @@ body{
 .box4{
     background-color: crimson;
     animation-name: box4;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 @keyframes box4{
     from{
